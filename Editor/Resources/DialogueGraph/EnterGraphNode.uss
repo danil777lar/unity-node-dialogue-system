@@ -1,0 +1,26 @@
+EnterGraphNode #title {
+    background-color: rgb(162, 255, 128);
+}
+
+EnterGraphNode #node-border {
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(162, 255, 128);
+    border-right-color: rgb(162, 255, 128);
+    border-top-color: rgb(162, 255, 128);
+    border-bottom-color: rgb(162, 255, 128);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+EnterGraphNode #title-label {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    -unity-font-definition: resource('Dialogue-Lato-Bold');
+}

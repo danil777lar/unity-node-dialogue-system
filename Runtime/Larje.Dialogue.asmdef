@@ -1,0 +1,23 @@
+{
+    "name": "Larje.Dialogue",
+    "rootNamespace": "Larje.Dialogue.Runtime",
+    "references": [
+        "Larje.Core",
+        "Zenject"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.larje.extenject",
+            "expression": "9.0.0",
+            "define": "LARJE_ZENJECT"
+        }
+    ],
+    "noEngineReferences": false
+}

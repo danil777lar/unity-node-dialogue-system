@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Imported/submodule-dialogue/Resources/DialogueGraph/EnterGraphNode.uss?fileID=7433441132597879392&amp;guid=204186772626dfdadb396f4b7cc425e7&amp;type=3#EnterGraphNode"/>
+    <Style src="project://database/Assets/Imported/submodule-dialogue/Resources/DialogueGraph/ExitGraphNode.uss?fileID=7433441132597879392&amp;guid=bb0c7643d1603937caea056628f4f89d&amp;type=3#ExitGraphNode"/>
+    <Style src="project://database/Assets/Imported/submodule-dialogue/Resources/DialogueGraph/DialogueGraphNode.uss?fileID=7433441132597879392&amp;guid=de33ade2b9bf6e244a60cb1e3e66b82b&amp;type=3#DialogueGraphNode"/>
+    <Style src="project://database/Assets/Imported/submodule-dialogue/Resources/DialogueGraph/EventGraphNode.uss?fileID=7433441132597879392&amp;guid=d1458e09f4b30340b84bc898f2a5eaa9&amp;type=3#EventGraphNode"/>
+    <Style src="project://database/Assets/Imported/submodule-dialogue/Resources/DialogueGraph/ConditionGraphNode.uss?fileID=7433441132597879392&amp;guid=c709063142a646f3eb1ec0a62d115f92&amp;type=3#ConditionGraphNode"/>
+    <Style src="project://database/Assets/Imported/submodule-dialogue/Resources/DialogueGraph/TriggerGraphNode.uss?fileID=7433441132597879392&amp;guid=e251f9c53994e1d75a36645e8feb92c7&amp;type=3#TriggerGraphNode"/>
+</ui:UXML>
