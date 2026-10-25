@@ -2,7 +2,7 @@
   "name": "com.larje.dialogue",
   "version": "0.1.0",
   "displayName": "Larje Dialogue",
-  "description": "Node-based dialogue graphs: graph editor window, localized lines and choices, events, triggers, conditions and enter/exit links. Includes Unity AI MCP tools to read and build dialogue graphs from JSON.",
+  "description": "Node-based dialogue graphs: graph editor window, localized lines and choices, events, triggers, conditions and enter/exit links. Includes Unity CLI commands to read and build dialogue graphs from JSON.",
   "unity": "6000.3",
   "author": {
     "name": "Danil Kolbasenko",

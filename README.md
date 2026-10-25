@@ -32,9 +32,11 @@ while (step != null)
 - **Condition nodes** ask `IDialogueConditionProcessor.TryCheckCondition`. `DialogueConditionDebug` is a simple implementation for testing.
 - **Trigger nodes** publish a `TriggerEvent` with a `TriggerId` on the core `IEventBus`. The bus is injected through `Construct`, automatically when Zenject is present.
 
-## Unity AI (MCP) tools
+## Unity CLI commands
 
-| Tool | Purpose |
+With `com.unity.pipeline` in the project, a running editor exposes these commands to the [Unity CLI](https://docs.unity.com/en-us/unity-cli) (`unity command <group> <name>`):
+
+| Command | Purpose |
 |---|---|
-| `Larje.ReadDialogue` | Export a dialogue graph as JSON (nodes and links) |
-| `Larje.WriteDialogue` | Create or replace a dialogue graph from the same JSON format (undo-able) |
+| `larje.dialogue read --path <asset>` | Export a dialogue graph as JSON (nodes and links) |
+| `larje.dialogue write --path <asset> (--json '<graph>' \| --file <graph.json>)` | Create or replace a dialogue graph from the same JSON format |
